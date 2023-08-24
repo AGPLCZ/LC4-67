@@ -3,11 +3,6 @@ LC467 je šifra v podobě kostiček, která obstojí vůči výkonným počíta�
 
 Verze LC467 přináší několik vylepšení, můžete měnit počet znaků, 6x6 = 36, 7x7 = 42. Díky tomu je možné šifrovat různé strukturované informace, nebo udělat ruční dešifrování snažším - méně kartiček.
 
-
-![Tiles printed out](skaut.png)
-
-ElsieFour "A Low-Tech Authenticated Encryption Algorithm For Human-to-Human Communication",
-
 ### Prolomení šifry 
 Symetrická šifra s klíčem o délce 138 bitů nabízí ohromnou odolnost proti útokům. Pokud by se někdo pokusil prolomit takovou šifru metodou brute-force, musel by vyzkoušet 2^138 různých kombinací –
 
