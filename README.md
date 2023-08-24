@@ -1,16 +1,17 @@
 # Symetrická šifra LC4-cipher (LS47)
-LS47 je kostičková šifra, obstojí proti síle výkonného počítače, lze šifrovat a dešifrovat zcela ručně. Vychází ze šifry ElsieFour (LC4) popsaná Alanem Kaminsky. Šifra se Vám může hodit, když nemáte u sebe počítat, či když mu nedůvěřujete, přesto potřebujete zajistit maximální soukromí. LS47 je mírně vylepšená, jsou přidané znaky, původní velikost pole bylo 6x6, a v této rozšířené verzi je pole 7x7, aby bylo možné šifrovat některé strukturované informace. K návodu je přiložen krátký kód napsaný v Pythonu, kód vložte například do https://repl.it/@AgentAGPL/ls47 a spusťte.
+LS47 je šifra v podobě kostiček, která obstojí vůči výkonným počítačům a umožňuje jak šifrování, tak dešifrování ručně. Vychází z šifry ElsieFour (LC4), kterou popsal Alan Kaminsky. Tato šifra se vám může hodit, pokud nemáte k dispozici počítač nebo mu nedůvěřujete, ale potřebujete zabezpečit své soukromí na maximální úrovni.
+
+Verze LS47 přináší několik vylepšení, můžete měnit počet znaků, 6x6 = 36, 7x7 = 42. Díky tomu je možné šifrovat různé strukturované informace, nebo udělat ruční dešifrování snažším - méně kartiček.
+
 
 ![Tiles printed out](skaut.png)
 
 ElsieFour "A Low-Tech Authenticated Encryption Algorithm For Human-to-Human Communication",
 
 ### Prolomení šifry 
-K prolomení symetrického klíče metodou brute-force je potřeba vyzkoušet 2^138 kombinací (každý možný klíč), než by útočník dostal srozumitelný text.
+Symetrická šifra s klíčem o délce 138 bitů nabízí ohromnou odolnost proti útokům. Pokud by se někdo pokusil prolomit takovou šifru metodou brute-force, musel by vyzkoušet 2^138 různých kombinací –
 
-2^138 = 3 484 491 437 270 409 86 586 495 598 010 130 648 530 944
-
-Superpočítač, který by byl schopný prověřit trilion (10^18) LS47 klíčů za sekundu, by vyžadovaly přibližně miliardu let.
+Nyní představme si, že máme k dispozici superpočítač, který by byl schopný prověřit trilion (10^18) klíčů LS47 za sekundu. Dokonce i s touto neuvěřitelnou rychlostí by trvalo prolomení šifry přibližně miliardu let.
 
 
 
