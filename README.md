@@ -8,7 +8,8 @@ Symetrická šifra s klíčem o délce 138 bitů nabízí ohromnou odolnost prot
 
 Nyní představme si, že máme k dispozici superpočítač, který by byl schopný prověřit trilion (10^18) klíčů LC4-67 za sekundu. Dokonce i s touto neuvěřitelnou rychlostí by trvalo prolomení šifry přibližně miliardu let.
 
-
+![Tiles printed out](skaut.png)
+![Tiles printed out](tiles.png)
 
 ### Znaková tabulka
 Hvězdička (násobení) * v novější verzi nahrazena @
