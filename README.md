@@ -8,6 +8,9 @@ The main advantage of this version lies in its wisely chosen programming languag
 
 The LC4-67 version introduces several improvements; you can change the number of characters, 7x7 = 49. This makes it possible to encrypt various structured information, or to make manual decryption easier - fewer cards  6x6 = 36.
 
+![app](web.jpg)
+
+
 There's also a 3D-printable SCAD model of the whole thing.
 
 ![Tiles printed out](tiles.jpg)
