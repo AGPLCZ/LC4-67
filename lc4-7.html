@@ -20,9 +20,10 @@
         <div class="row justify-content-center">
 
             <div class="col-md-6">
-                <div class="col-md-12 bg-light d-flex flex-column flex-lg-row justify-content-end align-items-center" style="margin-bottom: 20px;">
+                <div class="col-md-12 bg-light d-flex flex-column flex-lg-row" style="margin-bottom: 20px;">
                     <!-- Dropdown pro výběr jazyka -->
-                    <select id="languageSelect" class="form-select me-3 mb-2 mb-lg-0" style="max-width: 415px;" onchange="setLanguage(this.value)">
+                    <select id="languageSelect" class="form-select me-3 mb-2 mb-lg-0" style=" margin-right: auto;"
+                        onchange="setLanguage(this.value)">
                         <option value="en" data-translate-option="enOption"></option>
                         <option value="cs" data-translate-option="csOption"></option>
                         <option value="ru" data-translate-option="ruOption"></option>
@@ -38,7 +39,7 @@
                         });
                     </script>
 
-                    <div class="btn-group" role="group" style="min-width: 315px;">
+                    <div class="btn-group" role="group" style="min-width:250px; max-width: auto;">
                         <a href="lc4-6.html" class="btn btn-secondary" data-translate="layout6x6"></a>
                         <a href="lc4-7.html" class="btn btn-primary active" data-translate="layout7x7"></a>
                     </div>
@@ -47,7 +48,7 @@
                     <div class="card-body">
                         <div class="alert alert-primary" role="alert">
                             _abcdefghijklmnopqrstuvwxyz.0123456789,-+*/:?!'()
-                             </div>
+                        </div>
                         <form id="encryptionForm" class="form">
                             <div class="mb-3">
                                 <label for="keyInput" class="form-label fw-bolder" data-translate="keyLabel"></label>
