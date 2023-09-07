@@ -13,17 +13,11 @@ A symmetric cipher with a key length of 138 bits offers immense resistance again
 
 Now, let's imagine we have a supercomputer at our disposal capable of checking a trillion (10^18) LC4-67 keys per second. Even with this incredible speed, breaking the cipher would take approximately a billion years.
 
-### File - two versions doing the same thing
-Linked pair (combined into one file): index.html + index7.html - they don't need additional files :)
-
-A group of files working together: lc4-6.html + lc4-7.html + script6.js + script7.js + translations.js + bootstrap.min.css
-
-
 ### Project Structure
 
 ---
 
-#### Standalone Pair
+#### Standalone Pair - Should be used together
 Files that are self-contained and don't require any additional dependencies:
 - `index.html`
 - `index7.html`
