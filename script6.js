@@ -1,3 +1,228 @@
+// Slovník s překlady
+const translations = {
+    en: {
+        languageSelect: "Choose language:",
+        enOption: "English",
+        csOption: "Czech",
+        ruOption: "Russian",
+        zhOption: "Chinese",
+        deOption: "German",
+        esOption: "Spanish",
+        frOption: "French",
+        layout6x6: "Layout 6x6",
+        layout7x7: "Layout 7x7",
+        keyLabel: "Encryption key:",
+        keyPlaceholder: "Enter a password (recommended 20 characters) or key",
+        methodLabel: "Method:",
+        deriveOption: "Generate key from password",
+        manualOption: "Manual key entry",
+        messageLabel: "Message:",
+        messagePlaceholder: "Enter a message for encryption or decryption",
+        encryptLabel: "Encrypt",
+        decryptLabel: "Decrypt",
+        executeButton: "Execute",
+        usedKeyTitle: "Used key:",
+        resultTitle: "Result:",
+        copyButton: "Copy result"
+    },
+    cs: {
+        languageSelect: "Vyberte jazyk:",
+        enOption: "Angličtina",
+        csOption: "Čeština",
+        ruOption: "Ruština",
+        zhOption: "Čínština",
+        deOption: "Němčina",
+        esOption: "Španělština",
+        frOption: "Francouzština",
+        layout6x6: "Rozložení 6x6",
+        layout7x7: "Rozložení 7x7",
+        keyLabel: "Klíč šifry:",
+        keyPlaceholder: "Zadejte heslo (doporučeno 20 znaků) nebo klíč",
+        methodLabel: "Metoda:",
+        deriveOption: "Vygeneruje klíč podle hesla",
+        manualOption: "Manuální zadání klíče",
+        messageLabel: "Zpráva:",
+        messagePlaceholder: "Zadejte zprávu k šifrování nebo dešifrování",
+        encryptLabel: "Šifrovat",
+        decryptLabel: "Dešifrovat",
+        executeButton: "Spustit",
+        usedKeyTitle: "Použitý klíč:",
+        resultTitle: "Výsledek:",
+        copyButton: "Kopírovat výsledek"
+
+    },
+    ru: {
+        languageSelect: "Выберите язык:",
+        languageSelect: "Выберите язык:",
+        enOption: "Английский",
+        csOption: "Чешский",
+        ruOption: "Русский",
+        zhOption: "Китайский",
+        deOption: "Немецкий",
+        esOption: "Испанский",
+        frOption: "Французский",
+        layout6x6: "Макет 6x6",
+        layout7x7: "Макет 7x7",
+        keyLabel: "Ключ шифрования:",
+        keyPlaceholder: "Введите пароль (рекомендуется 20 символов) или ключ",
+        methodLabel: "Метод:",
+        deriveOption: "Сгенерировать ключ из пароля",
+        manualOption: "Ручной ввод ключа",
+        messageLabel: "Сообщение:",
+        messagePlaceholder: "Введите сообщение для шифрования или дешифрования",
+        encryptLabel: "Зашифровать",
+        decryptLabel: "Расшифровать",
+        executeButton: "Запустить",
+        usedKeyTitle: "Используемый ключ:",
+        resultTitle: "Результат:",
+        copyButton: "Копировать результат"
+    },
+    zh: {
+        languageSelect: "请选择语言：",
+        enOption: "英文",
+        csOption: "捷克文",
+        ruOption: "俄文",
+        zhOption: "中文",
+        deOption: "德文",
+        esOption: "西班牙文",
+        frOption: "法文",
+        layout6x6: "6x6布局",
+        layout7x7: "7x7布局",
+        keyLabel: "加密密钥：",
+        keyPlaceholder: "请输入密码（建议20个字符）或密钥",
+        methodLabel: "方法：",
+        deriveOption: "根据密码生成密钥",
+        manualOption: "手动输入密钥",
+        messageLabel: "消息：",
+        messagePlaceholder: "输入要加密或解密的消息",
+        encryptLabel: "加密",
+        decryptLabel: "解密",
+        executeButton: "执行",
+        usedKeyTitle: "使用的密钥：",
+        resultTitle: "结果：",
+        copyButton: "复制结果"
+    },
+
+    de: {
+        languageSelect: "Sprache auswählen:",
+        enOption: "Englisch",
+        csOption: "Tschechisch",
+        ruOption: "Russisch",
+        zhOption: "Chinesisch",
+        deOption: "Deutsch",
+        esOption: "Spanisch",
+        frOption: "Französisch",
+        layout6x6: "Layout 6x6",
+        layout7x7: "Layout 7x7",
+        keyLabel: "Verschlüsselungsschlüssel:",
+        keyPlaceholder: "Geben Sie ein Passwort (empfohlen 20 Zeichen) oder einen Schlüssel ein",
+        methodLabel: "Methode:",
+        deriveOption: "Schlüssel aus Passwort generieren",
+        manualOption: "Manuelle Schlüsseleingabe",
+        messageLabel: "Nachricht:",
+        messagePlaceholder: "Geben Sie eine Nachricht zum Verschlüsseln oder Entschlüsseln ein",
+        encryptLabel: "Verschlüsseln",
+        decryptLabel: "Entschlüsseln",
+        executeButton: "Ausführen",
+        usedKeyTitle: "Verwendeter Schlüssel:",
+        resultTitle: "Ergebnis:",
+        copyButton: "Ergebnis kopieren"
+    },
+    es: {
+        languageSelect: "Elija un idioma:",
+        enOption: "Inglés",
+        csOption: "Checo",
+        ruOption: "Ruso",
+        zhOption: "Chino",
+        deOption: "Alemán",
+        esOption: "Español",
+        frOption: "Francés",
+        layout6x6: "Diseño 6x6",
+        layout7x7: "Diseño 7x7",
+        keyLabel: "Clave de cifrado:",
+        keyPlaceholder: "Introduzca una contraseña (recomendado 20 caracteres) o una clave",
+        methodLabel: "Método:",
+        deriveOption: "Generar clave a partir de contraseña",
+        manualOption: "Entrada manual de clave",
+        messageLabel: "Mensaje:",
+        messagePlaceholder: "Introduzca un mensaje para cifrar o descifrar",
+        encryptLabel: "Cifrar",
+        decryptLabel: "Descifrar",
+        executeButton: "Ejecutar",
+        usedKeyTitle: "Clave utilizada:",
+        resultTitle: "Resultado:",
+        copyButton: "Copiar resultado"
+    },
+
+    fr: {
+        languageSelect: "Choisissez une langue:",
+        enOption: "Anglais",
+        csOption: "Tchèque",
+        ruOption: "Russe",
+        zhOption: "Chinois",
+        deOption: "Allemand",
+        esOption: "Espagnol",
+        frOption: "Français",
+        layout6x6: "Disposition 6x6",
+        layout7x7: "Disposition 7x7",
+        keyLabel: "Clé de chiffrement:",
+        keyPlaceholder: "Entrez un mot de passe (recommandé 20 caractères) ou une clé",
+        methodLabel: "Méthode:",
+        deriveOption: "Générer une clé à partir du mot de passe",
+        manualOption: "Saisie manuelle de la clé",
+        messageLabel: "Message:",
+        messagePlaceholder: "Entrez un message pour crypter ou décrypter",
+        encryptLabel: "Crypter",
+        decryptLabel: "Décrypter",
+        executeButton: "Exécuter",
+        usedKeyTitle: "Clé utilisée:",
+        resultTitle: "Résultat:",
+        copyButton: "Copier le résultat"
+    }
+
+
+  
+};
+
+
+function setLanguage(lang) {
+    console.log("Nastavuji jazyk na:", lang);
+    const elements = document.querySelectorAll('[data-translate]');
+    elements.forEach(el => {
+        const key = el.getAttribute('data-translate');
+        if (translations[lang][key]) {
+            console.log("Nastavuji text pro", key, "na", translations[lang][key]);
+            el.textContent = translations[lang][key];
+        }
+    });
+
+    const options = document.querySelectorAll('[data-translate-option]');
+    options.forEach(opt => {
+        const key = opt.getAttribute('data-translate-option');
+        if (translations[lang][key]) {
+            console.log("Nastavuji option pro", key, "na", translations[lang][key]);
+            opt.textContent = translations[lang][key];
+        }
+    });
+
+    const placeholders = document.querySelectorAll('[data-translate-placeholder]');
+    placeholders.forEach(input => {
+        const key = input.getAttribute('data-translate-placeholder');
+        if (translations[lang][key]) {
+            input.placeholder = translations[lang][key];
+        }
+    });
+
+    // Aktualizujte hodnotu rozbalovacího menu
+    document.getElementById('languageSelect').value = lang;
+}
+
+
+
+
+
+
+
 const letters = "_abcdefghijklmnopqrstuvwxyz123456789";
 
 const tiles = Array.from(letters).map((letter, index) => [letter, [Math.floor(index / 6), index % 6]]);
@@ -178,3 +403,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Stránka byla načtena. Nastavuji výchozí jazyk.");
+
+    // Získává preferovaný jazyk prohlížeče
+    let userLang = navigator.language || navigator.languages[0];
+
+    // Ořeže regionální kód (např. 'en-US' se změní na 'en')
+    userLang = userLang.split('-')[0];
+
+    // Kontroluje, zda je jazyk podporován (přidejte další jazyky podle potřeby)
+    if(['en', 'cs', 'ru', 'zh', 'de', 'es', 'fr'].includes(userLang)) {
+        setLanguage(userLang);
+    } else {
+        // Pokud není preferovaný jazyk podporován, nastaví se angličtina jako výchozí
+        setLanguage('en');
+    }
+});
