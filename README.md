@@ -15,9 +15,7 @@ Now, let's imagine we have a supercomputer at our disposal capable of checking a
 ![app](web.jpg)
 
 
-There's also a 3D-printable SCAD model of the whole thing.
 
-![Tiles printed out](tiles.jpg)
 
 ### Character board
 
@@ -283,9 +281,20 @@ y z _ 2 3 4
 5 6 7 8 9 #
 ```
 
+
+## Print
+
+There's also a 3D-printable SCAD model of the whole thing.
+
+![Tiles printed out](tiles.jpg)
+
+
 ## References
 
 [1] *Kaminsky, Alan. "ElsieFour: A Low-Tech Authenticated Encryption Algorithm For Human-to-Human Communication." IACR Cryptology ePrint Archive 2017 (2017): 339.*  
+
+
+
 
 
 
