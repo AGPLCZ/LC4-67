@@ -12160,9 +12160,10 @@ fieldset:disabled .btn {
 
             <div class="col-md-6">
 
-                <div class="col-md-12 bg-light d-flex justify-content-end" style="margin-bottom: 20px;">
-                    <!-- Dropdown pro výběr jazyka -->
-                    <select id="languageSelect" class="form-select me-3" style="max-width: 415px;"
+                <div class="col-md-6">
+                    <div class="col-md-12 bg-light d-flex flex-column flex-lg-row justify-content-end align-items-center" style="margin-bottom: 20px;">
+                        <!-- Dropdown pro výběr jazyka -->
+                        <select id="languageSelect" class="form-select me-3 mb-2 mb-lg-0" style="max-width: 415px;" onchange="setLanguage(this.value)">
                         onchange="setLanguage(this.value)">
                         <option value="en" data-translate-option="enOption"></option>
                         <option value="cs" data-translate-option="csOption"></option>
