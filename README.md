@@ -13,6 +13,11 @@ A symmetric cipher with a key length of 138 bits offers immense resistance again
 
 Now, let's imagine we have a supercomputer at our disposal capable of checking a trillion (10^18) LC4-67 keys per second. Even with this incredible speed, breaking the cipher would take approximately a billion years.
 
+![app](web.jpg)
+
+
+
+
 ### Project Structure
 
 ---
@@ -39,8 +44,6 @@ This set of files collaboratively delivers functionality and should be used toge
 ##### Styles:
 - `bootstrap.min.css`
 
-
-![app](web.jpg)
 
 
 
