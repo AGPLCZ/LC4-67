@@ -4,15 +4,13 @@ LC4-67 ) is a low-tech a symmetric cipher  that can be computed by hand; but unl
 
 LC4-67  is inspired by the ElsieFour (LC4) cipher introduced by Alan Kaminsky. This cipher might be useful to you if you don't have access to a computer or you don't trust it, but need top-tier privacy protection.
 
-The main advantage of this version lies in its wisely chosen programming language - Javascript. One of the significant benefits of Javascript is its ubiquity; it runs on almost any device equipped with an internet browser. There's no need for installations, and the script operates offline. [lc4-67.html]
+The main advantage of this version lies in its wisely chosen programming language - Javascript. One of the significant benefits of Javascript is its ubiquity; it runs on almost any device equipped with an internet browser. There's no need for installations, and the script operates offline. lc4-67.html
 
 The LC4-67 version introduces several improvements; you can change the number of characters, 7x7 = 49. This makes it possible to encrypt various structured information, or to make manual decryption easier - fewer cards  6x6 = 36.
 
 There's also a 3D-printable SCAD model of the whole thing.
 
 ![Tiles printed out](tiles.jpg)
-
-https://github.com/umcconnell/lc4
 
 ### Character board
 
