@@ -1,28 +1,16 @@
 
-# LS47 hand-computable cipher
+# LC4-67 cipher
+LC4-67 is a symmetric cipher engineered to resist potent computer attacks. It's designed for manual encryption and decryption. Inspired by the ElsieFour (LC4) cipher introduced by Alan Kaminsky. This cipher might be useful to you if you don't have access to a computer or you don't trust it, but need top-tier privacy protection.
 
-This is a slight improvement of the ElsieFour cipher as described by Alan
-Kaminsky [1]. We use 7x7 characters instead of original (barely fitting) 6x6,
-to be able to encrypt some structured information. We also describe a simple
-key-expansion algorithm, because remembering passwords is popular. Similar
-security considerations as with ElsieFour hold.
+The main advantage of this version lies in its wisely chosen programming language - Javascript. One of the significant benefits of Javascript is its ubiquity; it runs on almost any device equipped with an internet browser. There's no need for installations, and the script operates offline. 
 
-There's also a 3D-printable SCAD model of the whole thing. Yay!
+The LC4-67 version introduces several improvements; you can change the number of characters, 7x7 = 49. This makes it possible to encrypt various structured information, or to make manual decryption easier - fewer cards  6x6 = 36.
+
+There's also a 3D-printable SCAD model of the whole thing.
 
 ![Tiles printed out](tiles.jpg)
 
-We suggest printing the model using more than one filament color to make the
-letters easily recognizable. Thanks go to Martin Ptasek for providing the
-picture.
-
-If you trust your computer, there are several LS47 implementations around:
-
-- A very simple python implementation in available here in `ls47.py`.
-- A much better version usuable as an actual binary (also supporting several
-  versions of padding and the original ElsieFour cipher) was supplied by
-  Bernhard Esslinger from the CrypTool project, available in `lc4.py`.
-- Javascript version (npm-compatible) of the cipher implementations was created
-  by Ulysse McConnell, available at https://github.com/umcconnell/lc4
+https://github.com/umcconnell/lc4
 
 ### Character board
 
