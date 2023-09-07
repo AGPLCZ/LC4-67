@@ -46,8 +46,7 @@ This set of files collaboratively delivers functionality and should be used toge
 
 ---
 
-
-
+## Manual
 ### Character board
 
 We have added some real punctuation, basic stuff for writing expressions,
