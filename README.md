@@ -23,7 +23,7 @@ Now, let's imagine we have a supercomputer at our disposal capable of checking a
 ---
 
 #### Standalone Pair - Should be used together
-Files that are self-contained and ** don't require any additional dependencies ** (combined into one file):
+Files that are self-contained and <b> don't require any additional dependencies </b> (combined into one file):
 - `index.html`
 - `index7.html`
 
