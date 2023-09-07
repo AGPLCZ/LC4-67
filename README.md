@@ -18,6 +18,34 @@ Linked pair (combined into one file): index.html + index7.html - they don't need
 
 A group of files working together: lc4-6.html + lc4-7.html + script6.js + script7.js + translations.js + bootstrap.min.css
 
+
+### Project Structure
+
+---
+
+#### Standalone Pair
+Files that are self-contained and don't require any additional dependencies:
+- `index.html`
+- `index7.html`
+
+---
+
+#### Modular Group
+This set of files collaboratively delivers functionality and should be used together:
+
+##### Web Pages:
+- `lc4-6.html`
+- `lc4-7.html`
+
+##### Scripts:
+- `script6.js`
+- `script7.js`
+- `translations.js`
+
+##### Styles:
+- `bootstrap.min.css`
+
+
 ![app](web.jpg)
 
 
