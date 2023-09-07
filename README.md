@@ -1,4 +1,5 @@
-Online Encryptor: https://dobrodruzi.cz/lc467/lc4-6.html
+ 
+ [Online Encryptor](https://dobrodruzi.cz/lc467/lc4-6.html)
 # LC4-67 cipher -  Encrypt and Decrypt Text
 LC4-67 is a low-tech a symmetric cipher that can be computed by hand; but unlike many historical ciphers, LC4-67 is designed to resist potent computer attacks. It's designed for manual encryption and decryption. LC4-67 is inspired by the ElsieFour (LC4) cipher introduced by Alan Kaminsky. This cipher might be useful to you if you don't have access to a computer or you don't trust it, but need top-tier privacy protection.
 
