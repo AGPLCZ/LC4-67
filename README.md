@@ -8,6 +8,11 @@ The LC4-67 version introduces several improvements, the main advantagelies in it
 
 Other improvements; you can change the number of characters, 7x7 = 49. This makes it possible to encrypt various structured information, or to make manual decryption easier with fewer cards 6x6 = 36.
 
+###Breaking the Cipher
+A symmetric cipher with a key length of 138 bits offers immense resistance against attacks. If someone were to attempt to break such a cipher using the brute-force method, they would need to try 2^138 different combinations –
+
+Now, let's imagine we have a supercomputer at our disposal capable of checking a trillion (10^18) LC4-67 keys per second. Even with this incredible speed, breaking the cipher would take approximately a billion years.
+
 ![app](web.jpg)
 
 
@@ -295,8 +300,6 @@ Symetrická šifra s klíčem o délce 138 bitů nabízí ohromnou odolnost prot
 
 Nyní představme si, že máme k dispozici superpočítač, který by byl schopný prověřit trilion (10^18) klíčů LC4-67 za sekundu. Dokonce i s touto neuvěřitelnou rychlostí by trvalo prolomení šifry přibližně miliardu let.
 
-
-![Tiles printed out](tiles.jpg)
 
 ### Znaková tabulka
 Hvězdička (násobení) * v novější verzi nahrazena @
