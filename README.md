@@ -32,15 +32,15 @@ A much better version usuable as an actual binary (also supporting several versi
 Javascript version (npm-compatible) of the cipher implementations was created by Ulysse McConnell, available at https://github.com/umcconnell/lc4
 
 
-### Project Structure
+## Project Structure
 
 ---
 
-#### Standalone Pair - Should be used together
-Files that are self-contained and <b> don't require any additional dependencies </b> (combined into one file):
+#### Standalone Pair - (css, javascripr, html: combined into one file)
+Files that are self-contained and <b> don't require any additional dependencies </b>:
 - `index.html`
 - `index7.html`
-
+Should be used together (linked only by a button)
 ---
 
 #### Modular Group
