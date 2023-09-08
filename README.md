@@ -16,10 +16,10 @@ Now, let's imagine we have a supercomputer at our disposal capable of checking a
 ![app](web.jpg)
 
 
+### If you trust your computer
 
 > [!NOTE]
-> ### If you trust your computer
-If you trust your computer, there are several LS47 implementations around:  
+> If you trust your computer, there are several LS47 implementations around:  
 
 #### A very simple python implementation in available here in ls47.py:
 - https://github.com/exaexa/ls47
