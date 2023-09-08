@@ -1,5 +1,7 @@
  
 > [Online Encryptor](https://dobrodruzi.cz/lc467/lc4-6.html)
+
+[![Latest Stable Version](http://poser.pugx.org/phpunit/phpunit/v)](https://packagist.org/packages/phpunit/phpunit) 
 # LC4-67 cipher -  Encrypt and Decrypt Text
 LC4-67 is a low-tech a symmetric cipher that can be computed by hand; but unlike many historical ciphers, LC4-67 is designed to resist potent computer attacks. It's designed for manual encryption and decryption. LC4-67 is inspired by the ElsieFour (LC4) cipher introduced by Alan Kaminsky. This cipher might be useful to you if you don't have access to a computer or you don't trust it, but need top-tier privacy protection.
 
@@ -27,8 +29,6 @@ Now, let's imagine we have a supercomputer at our disposal capable of checking a
 
 > [!IMPORTANT]  
 > LC4-67 was `created by translating the python script ls47.py` into javascript.
-
-> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
 
 
 A much better version usuable as an actual binary (also supporting several versions of padding and the original ElsieFour cipher) was supplied by Bernhard Esslinger from the CrypTool project, available in lc4.py.
