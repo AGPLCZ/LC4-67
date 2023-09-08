@@ -16,6 +16,16 @@ Now, let's imagine we have a supercomputer at our disposal capable of checking a
 ![app](web.jpg)
 
 
+### If you trust your computer
+If you trust your computer, there are several LS47 implementations around:  
+
+#### A very simple python implementation in available here in ls47.py:
+- https://github.com/exaexa/ls47
+- https://gitea.blesmrt.net/exa/ls47
+LC4-67 was created by translating the python script ls47.py into javascript.
+
+A much better version usuable as an actual binary (also supporting several versions of padding and the original ElsieFour cipher) was supplied by Bernhard Esslinger from the CrypTool project, available in lc4.py.
+Javascript version (npm-compatible) of the cipher implementations was created by Ulysse McConnell, available at https://github.com/umcconnell/lc4
 
 
 ### Project Structure
@@ -165,6 +175,17 @@ stays the same.
 
 Grab a bag full of tiles and randomly draw them one by one. Key is the 49-item permutation of them.
 
+
+## Print
+
+There's also a 3D-printable SCAD model of the whole thing.
+
+![cc-by-sa-4](tiles.jpg)
+image licence: cc-by-sa-4 - Martin Ptasek
+We suggest printing the model using more than one filament color to make the letters easily recognizable. Thanks go to Martin Ptasek for providing the picture. 
+
+
+
 ## Modifications
 
 ### Key expansion from a password
@@ -310,13 +331,6 @@ s t u v w x
 y z _ 2 3 4
 5 6 7 8 9 #
 ```
-
-
-## Print
-
-There's also a 3D-printable SCAD model of the whole thing.
-
-![Tiles printed out](tiles.jpg)
 
 
 ## References
