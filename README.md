@@ -19,9 +19,9 @@ Now, let's imagine we have a supercomputer at our disposal capable of checking a
 ### If you trust your computer
 
 > [!NOTE]
-> If you trust your computer, there are several LS47 implementations around:  
+> If you trust your computer, there are several implementations around:  
 
-#### A very simple python implementation in available here in ls47.py:
+#### LS47 - A very simple python implementation in available here in ls47.py:
 - https://github.com/exaexa/ls47
 - https://gitea.blesmrt.net/exa/ls47
 
