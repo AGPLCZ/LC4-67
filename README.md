@@ -16,14 +16,17 @@ Now, let's imagine we have a supercomputer at our disposal capable of checking a
 ![app](web.jpg)
 
 
-### If you trust your computer
+
+> [!NOTE]
+> ### If you trust your computer
 If you trust your computer, there are several LS47 implementations around:  
 
 #### A very simple python implementation in available here in ls47.py:
 - https://github.com/exaexa/ls47
 - https://gitea.blesmrt.net/exa/ls47
-  
-> **LC4-67 was created by translating the python script ls47.py into javascript.**
+
+> [!IMPORTANT]  
+> LC4-67 was created by translating the python script ls47.py into javascript.
 
 A much better version usuable as an actual binary (also supporting several versions of padding and the original ElsieFour cipher) was supplied by Bernhard Esslinger from the CrypTool project, available in lc4.py.
 Javascript version (npm-compatible) of the cipher implementations was created by Ulysse McConnell, available at https://github.com/umcconnell/lc4
