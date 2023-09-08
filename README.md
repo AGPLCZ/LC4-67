@@ -22,6 +22,7 @@ If you trust your computer, there are several LS47 implementations around:
 #### A very simple python implementation in available here in ls47.py:
 - https://github.com/exaexa/ls47
 - https://gitea.blesmrt.net/exa/ls47
+  
 LC4-67 was created by translating the python script ls47.py into javascript.
 
 A much better version usuable as an actual binary (also supporting several versions of padding and the original ElsieFour cipher) was supplied by Bernhard Esslinger from the CrypTool project, available in lc4.py.
