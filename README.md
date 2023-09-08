@@ -28,6 +28,9 @@ Now, let's imagine we have a supercomputer at our disposal capable of checking a
 > [!IMPORTANT]  
 > LC4-67 was `created by translating the python script ls47.py` into javascript.
 
+> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
+
+
 A much better version usuable as an actual binary (also supporting several versions of padding and the original ElsieFour cipher) was supplied by Bernhard Esslinger from the CrypTool project, available in lc4.py.
 Javascript version (npm-compatible) of the cipher implementations was created by Ulysse McConnell, available at https://github.com/umcconnell/lc4
 
