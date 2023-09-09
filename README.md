@@ -15,8 +15,6 @@ A symmetric cipher with a key length of 138 bits offers immense resistance again
 
 Now, let's imagine we have a supercomputer at our disposal capable of checking a trillion (10^18) LC4-67 keys per second. Even with this incredible speed, breaking the cipher would take approximately a billion years.
 
-![app](web.jpg)
-
 
 ### If you trust your computer
 
@@ -33,6 +31,9 @@ Now, let's imagine we have a supercomputer at our disposal capable of checking a
 
 A much better version usuable as an actual binary (also supporting several versions of padding and the original ElsieFour cipher) was supplied by Bernhard Esslinger from the CrypTool project, available in lc4.py.
 Javascript version (npm-compatible) of the cipher implementations was created by Ulysse McConnell, available at https://github.com/umcconnell/lc4
+
+
+![app](web.jpg)
 
 
 ## Project Structure
