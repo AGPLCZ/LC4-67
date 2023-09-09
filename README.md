@@ -269,10 +269,10 @@ To simplify things a bit, we will use the following layout:
 | 7          | r | s | t | 7 |
 | 8          | u | v | w | 8 |
 | 9          | x | y | z | 9 |
-| 10         |   |   |   | 0 |
+| 10         |   | . | _ | 0 |
 | J          |   |   |   | . |
 | Q          |   |   |   |   |
-| K          |   |   |   | _ |
+| K          |   |   |   |   |
 
 
 ## References
