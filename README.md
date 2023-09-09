@@ -288,64 +288,10 @@ This maps nicely to the playing card suits:
 | Q          | l | y | ( |   |
 | K          | m | z | ) |   |
 
-The last 3 cards are not used. (Actually, you are free to use the suits in
-whatever order you like and discard the last 3 of the suit you like the least.)
-
-Getting the X and Y offsets from the cards is a slightly more challenging than
-with the tiles that have the offsets marked, but still doable. Calculate
-`13*suit + card value - 1`, then compute the standard quotient and remainder
-for division by 7. I settled with having the second card set laid out next to
-the "active" board, serving as a reference.
-
-The result may look like this:
-
-![Using cards instead of tiles](card-tiles.jpg)
-
-In this example, the marker is on J♣ (at the top left), and we want to encrypt
-the plaintext character `e`.  The image includes the character, index, and
-offsets for the relevant cards.
-
-1. From the card mapping, `e` maps to 5♦ (letters `a` through `m` map to
-Tiles), which is on the second row.
-2. The marker card, J♣, has:
-   - an index of 24 (Clubs are suit 1, and the Jack is the 11th card in the
-     suit): `i = 1 * 13 + 11 = 24`
-   - an x-offset of 3: `x = i % 7 = 24 % 7 = 3`
-   - a y-offset of 3: `y = i / 7 = 24 / 7 = 3`
-3. Using the marker offsets, the ciphertext card is three rows down and three
-   columns to the right of 5♦, which is 6♠.
-4. From the card mapping, 6♠ maps to `6` (Spades map directly to digits), and
-   has:
-   - an index of 45 (Spades are suit 3, and 6 is the 6th card in the suit): `i
-     = 3 * 13 + 6 = 45`
-   - an x-offset of 3: `x = i % 7 = 45 % 7 = 3`
-   - a y-offset of 6: `y = i / 7 = 45 / 7 = 6`
-5. We then complete the cipher as normal:
-   - Output `6` as the ciphertext
-   - Rotate the row containing the plaintext card, 5♦
-   - Rotate the column containing the ciphertext card, 6♠
-   - Move the marker according to the offsets of the ciphertext card, to the
-     right 3 and down 6
-
-For the original LC4, you need just 3 suits, modifying the board to "align" to
-the suits e.g. as follows:
-
-```
-a b c d e f
-g h i j k l
-m n o p q r
-s t u v w x
-y z _ 2 3 4
-5 6 7 8 9 #
-```
-
 
 ## References
 
 [1] *Kaminsky, Alan. "ElsieFour: A Low-Tech Authenticated Encryption Algorithm For Human-to-Human Communication." IACR Cryptology ePrint Archive 2017 (2017): 339.*  
-
-
-
 
 
 
