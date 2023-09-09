@@ -253,41 +253,26 @@ text after several characters.
 ### Alternative board with playing cards ♥♦♠♣
 
 If you find the above tiles complicated to obtain or create, you can very
-easily use playing cards to do the same, similarly as with the [Solitaire
-cipher by Schneier](https://www.schneier.com/academic/solitaire/). (Moreover,
-use of playing cards could be more innocuous and easily explainable to a
-suddenly appearing adversary. Playing cards is sure less suspicious than
-playing some peculiarly numbered tiles! :] )
+easily use playing cards.
 
 To simplify things a bit, we will use the following layout:
 
-```
-a b c d e f g
-h i j k l m n
-o p q r s t u
-v w x y z _ .
-, - + * / : ?
-! ' ( ) 1 2 3
-4 5 6 7 8 9 0
-```
-
-This maps nicely to the playing card suits:
 
 | Card value | ♦ | ♣ | ♥ | ♠ |
 |------------|---|---|---|---|
-| A          | a | n | _ | 1 |
-| 2          | b | o | . | 2 |
-| 3          | c | p | , | 3 |
-| 4          | d | q | - | 4 |
-| 5          | e | r | + | 5 |
-| 6          | f | s | * | 6 |
-| 7          | g | t | / | 7 |
-| 8          | h | u | : | 8 |
-| 9          | i | v | ? | 9 |
-| 10         | j | w | ! | 0 |
-| J          | k | x | ' |   |
-| Q          | l | y | ( |   |
-| K          | m | z | ) |   |
+| A          | a | b | c | 1 |
+| 2          | d | e | f | 2 |
+| 3          | g | h | h | 3 |
+| 4          | i | j | k | 4 |
+| 5          | l | m | n | 5 |
+| 6          | o | p | q | 6 |
+| 7          | r | s | t | 7 |
+| 8          | u | v | w | 8 |
+| 9          | x | y | z | 9 |
+| 10         |   |   |   | 0 |
+| J          |   |   |   | . |
+| Q          |   |   |   |   |
+| K          |   |   |   | _ |
 
 
 ## References
