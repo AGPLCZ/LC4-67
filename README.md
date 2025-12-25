@@ -1,5 +1,5 @@
  
-> [Online Encryptor](https://dobrodruzi.cz/lc467/lc4-6.html)
+> [Online Encryptor](https://network.dobrodruzi.cz/lc467/lc4-6.html)
 
 
 # LC4-67 cipher -  Encrypt and Decrypt Text
